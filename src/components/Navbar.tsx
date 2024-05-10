@@ -35,7 +35,6 @@ export default function Navbar() {
                 <div className="navbarcomp flex gap-1 items-center justify-center">
                     <BsYoutube className="navbarcomp text-3xl text-red-600" />
                     <span className="text-xl font-medium">Youtube</span>
-                    <h1 className="namecomp">TOFIQ QENIYEV</h1>
                 </div>
             </Link>
         </div>
