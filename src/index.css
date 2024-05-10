@@ -23,3 +23,54 @@ body{
     background-color: #c7c7c7;
     border-radius: 1rem;
 }
+
+
+@media (max-width: 768px) {
+ 
+
+    .momvideo{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* 4 sütun tanımı */
+        width: 100%; /* Tam genişlik */
+        box-sizing: border-box;
+       
+      
+        
+        
+    }
+
+    .hamburbtn{
+        display: none;
+    }
+
+    .videocardhome{
+        width: 300px;
+       
+    }
+
+    .namecomp{
+        display: none;
+    }
+
+    .navbarinput{
+        width: 250px;
+    }
+
+    .navbaraction{
+        display: none;
+    }
+
+    .navbarcomp{
+        width: 100px;
+        margin-left: -23px;
+        margin-right: 15px;
+    }
+    .mominput{
+        width: 90px;
+    }
+    .sidebarr{
+        display: flex;
+        flex-wrap: wrap;
+        width: 55px;
+    }
+}

@@ -8,6 +8,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import Card from "../components/Card";
 import { clearVideos } from "../store";
 import { HomePageVideos } from "../Types";
+import '../index.css';
 
 
 export default function Home() {
@@ -41,7 +42,7 @@ export default function Home() {
             loader={<Spinner />}
             height={650}
             >
-            <div className="grid gap-y-14 gap-x-8 grid-cols-4 p-8">
+            <div className="momvideo grid gap-y-14 gap-x-8 grid-cols-4 p-8">
                 {videos.map((item:HomePageVideos) => {
                     return <Card data={item} key={item.videoId} />;
                 })}
